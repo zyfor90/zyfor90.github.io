@@ -1,0 +1,302 @@
+body{
+  font-size: 12px;
+}
+/*NAVBAR*/
+.nav-item a{
+  font-size: 16px;
+  font-family: "comic sans ms";
+  text-decoration: none;
+  transition: color, 0.7s ease-in-out;
+}
+.nav-item a:hover{
+  color: #fff;
+}
+.menu-active{
+  padding: 23px;
+  line-height: 50px;
+  background: #007bff;
+  color: #fff;
+}
+.zyfor-menu{
+  padding: 23px;
+  line-height: 50px;
+  transition: background, 1.8s;
+}
+.zyfor-menu:hover{
+  background: #007bff;
+}
+/*SKILL PAGE*/
+.skill{
+  padding: 15px;
+  margin-bottom: 10px;
+  min-height: 220px;
+}
+.skill-logo{
+  width: 100px;
+  height: 100px;
+  transition: 0.8s;
+}
+.skill-logo:hover{
+  width: 125px;
+  height: 125px;
+}
+.skill-text{
+  font-family: "comic sans ms";
+  margin-top: 10px;
+  font-size: 2.1vw;
+}
+/*HOMESCREEN PAGE*/
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  color: white;
+  background-image: url('../images/bg4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*ABOUT ME PAGE*/
+.aboutme-height{
+  height: 100vh;
+  min-height: 570px;
+}
+.aboutme-font{
+  font-family: Brooklyn;
+  margin-top:30px;
+  font-size:1.7vw;
+}
+
+.profile-info {
+  padding: 0 20px;
+  margin: 40px 0; }
+  .profile-info .heading {
+    margin: 0 0 10px 0;
+    font-weight: 600; }
+  .profile-info ul > li {
+    margin-bottom: 8px; }
+    .social-icons {
+      margin-bottom: 0; }
+      .social-icons > li {
+        padding: 0 2px 5px 2px; }
+        .social-icons > li > a {
+          display: inline-block;
+          vertical-align: middle;
+          *vertical-align: auto;
+          *zoom: 1;
+          *display: inline;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+          width: 40px;
+          height: 40px;
+          line-height: 42px;
+          text-align: center;
+          background-color: #007bff;
+          color: #fff;
+          transition: 0.8s;
+           }
+          .social-icons > li > a i {
+            font-size: 18px; }
+          .social-icons > li > a:hover, .social-icons > li > a:focus {
+            background-color: #404040; }
+            ol,ul{margin-top:0;margin-bottom:10px}ol ol,ol ul,ul ol,ul ul{margin-bottom:0}.list-unstyled{padding-left:0;list-style:none}
+            .list-inline{padding-left:0;margin-left:-5px;list-style:none}.list-inline>li{display:inline-block;padding-right:5px;padding-left:5px}dl{margin-top:0;margin-bottom:20px}dd,dt{line-height:1.42857143}dt{font-weight:700}dd{margin-left:0}@media (min-width:768px){.dl-horizontal dt{float:left;width:160px;overflow:hidden;clear:left;text-align:right;text-overflow:ellipsis;white-space:nowrap}.dl-horizontal dd{margin-left:180px}}abbr[data-original-title],abbr[title]{cursor:help;border-bottom:1px dotted #777}.
+.zyfor-height{
+  min-height: 800px;
+}
+.padding{
+  color: #007bff;
+  font-size: 2.5vw;
+  margin-top:30px;
+  font-family: "comic sans ms";
+  margin-bottom: 20px;
+}
+.borderline{
+  margin-bottom: 30px;
+  border: 1px solid #000;
+  width: 15%;
+}
+/*ARTIKEL PAGE*/
+.artikel-title{
+  font-size: 2vw;
+}
+.artikel-box{
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #fff;
+  font-size: 1vw;
+  transition:  background,color,0.8s ease-in-out;
+}
+.artikel-box:hover{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.hover{
+  background: #007bff;
+  color:#fff;
+}
+.hover a{
+  text-decoration: none;
+  color:#fff;
+    transition:  background,color,0.8s ease-in-out;
+}
+.baper{
+  background: #fff;
+  color: #000;
+}
+.baper a{
+  color: #007bff;
+    transition:   background,color,0.8s ease-in-out;
+}
+.keterangan-box{
+  border-left: 4px solid steelblue;
+  padding: 10px;
+  background-color: #e5e5e5;
+  margin-top: 10px;
+}
+.readmore{
+  padding: 20px;
+}
+.kategori{
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+  word-wrap: break-word;
+  float: left;
+  background: #212529;
+  color:white;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.kategori a{
+  color:white;
+  transition: 0.8s;
+}
+.kategori a:hover{
+  text-decoration: none;
+  color:red;
+}
+.image{
+  padding: 20px;
+  width: 100%;
+  height: 450px;
+}
+.kolom{
+  font-family: Brooklyn;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: auto;
+  transition: 0.8s;
+}
+.kolom:hover{
+  margin-top: 20px;
+  box-shadow: 0px 2px 10px black;
+}
+.pagination-karya{
+  margin-top: 30px;
+}
+.footer{
+  height: 0px;
+}
+.footer-link a{
+  color: white;
+}
+.footerku{
+  color: white;
+  background: #212529;
+  padding-top: 15px;
+}
+.footer-zyfor{
+  color:white;
+  background: #212529;
+  height: 55px;
+}
+.footers{
+  color: white;
+  background: #212529;
+  padding: 0px;
+  margin: 0px;
+}
+.bg-grey-white1{
+  background: linear-gradient(rgb(238, 238, 238) 300px, rgb(255, 255, 255) 100%);
+  background-image: linear-gradient(rgb(238, 238, 238) 300px, rgb(255, 255, 255) 100%);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+.bg-grey-white{
+  background: linear-gradient(rgb(238, 238, 238) 1px, rgb(255, 255, 255) 50%);
+  background-image: linear-gradient(rgb(238, 238, 238) 1px, rgb(255, 255, 255) 50%);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+.bg-white-grey{
+  background: linear-gradient(rgb(255, 255, 255) 330px, rgb(238, 238, 238) 100%);
+  background-image: linear-gradient(rgb(255, 255, 255) 330px, rgb(238, 238, 238) 100%);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+.bg-grey{
+  background-color: rgb(238, 238, 238);
+}
+.bg-white{
+  background-color: #fff;
+}
+/* Blue */
+.btnku {
+  transition: 0.8s;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+.shadowku {
+  box-shadow: 1px 0px 25px grey;
+}
+.background-black{
+  background-color: #007bff;
+}
+.label {
+  font-weight: normal; }
+.label-default{
+  box-sizing: border-box;
+  margin: 10px;
+  background-color: #777;
+}
+.single-background-zyfor{
+  background-color: #fff;
+  min-height: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+}
