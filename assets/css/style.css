@@ -1,6 +1,6 @@
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto'; 
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
@@ -26,7 +26,7 @@
 }
 
 *{
-  font-family: 'roboto';
+  font-family: 'Roboto'; 
 }
 
 body{
@@ -35,7 +35,7 @@ body{
 /*NAVBAR*/
 .nav-item a{
   font-size: 16.4px;
-  font-family: "roboto";
+  font-family: "Roboto"; 
   text-decoration: none;
   transition: color, 0.7s ease-in-out;
 }
@@ -72,7 +72,7 @@ body{
   height: 125px;
 }
 .skill-text{
-  font-family: "roboto";
+  font-family: "Roboto"; 
   margin-top: 10px;
   font-size: 2.1vw;
 }
@@ -140,7 +140,7 @@ body{
   color: #007bff;
   font-size: 2.5vw;
   margin-top:30px;
-  font-family: "roboto";
+  font-family: "Roboto"; 
   margin-bottom: 20px;
 }
 .borderline{
