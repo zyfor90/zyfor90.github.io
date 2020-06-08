@@ -221,7 +221,7 @@ body{
   transition: 0.8s;
 }
 .kolom:hover{
-  margin-top: 20px;
+  /* margin-top: 20px; */
   box-shadow: 0px 2px 10px black;
 }
 .pagination-karya{
