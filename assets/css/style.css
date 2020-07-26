@@ -134,7 +134,7 @@ body{
             .list-inline{padding-left:0;margin-left:-5px;list-style:none}.list-inline>li{display:inline-block;padding-right:5px;padding-left:5px}dl{margin-top:0;margin-bottom:20px}dd,dt{line-height:1.42857143}dt{font-weight:700}dd{margin-left:0}@media (min-width:768px){.dl-horizontal dt{float:left;width:160px;overflow:hidden;clear:left;text-align:right;text-overflow:ellipsis;white-space:nowrap}.dl-horizontal dd{margin-left:180px}}abbr[data-original-title],abbr[title]{cursor:help;border-bottom:1px dotted #777
 }
 .zyfor-height{
-  min-height: 800px;
+  min-height: 500px;
 }
 .padding{
   color: #007bff;
@@ -221,7 +221,8 @@ body{
   transition: 0.8s;
 }
 .kolom:hover{
-  /* margin-top: 20px; */
+  /* margin-top: 20px;
+   */
   box-shadow: 0px 2px 10px black;
 }
 .pagination-karya{
