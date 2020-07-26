@@ -32,6 +32,7 @@
 body{
   font-size: 12px;
 }
+
 /*NAVBAR*/
 .nav-item a{
   font-size: 16.4px;
@@ -39,22 +40,21 @@ body{
   text-decoration: none;
   transition: color, 0.7s ease-in-out;
 }
-.nav-item a:hover{
+/* .nav-item a:hover{
   color: #fff;
-}
+} */
 .menu-active{
   padding: 23px;
   line-height: 50px;
   background: #007bff;
-  color: #fff;
+  color: #fff !important;
 }
+
 .zyfor-menu{
   padding: 23px;
   line-height: 50px;
   transition: background, 1.8s;
-}
-.zyfor-menu:hover{
-  background: #007bff;
+  color: #fff;
 }
 /*SKILL PAGE*/
 .skill{
