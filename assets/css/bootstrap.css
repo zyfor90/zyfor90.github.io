@@ -485,8 +485,8 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  /* background-color: #fff; */
+  /* border: 1px solid #dee2e6; */
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -2900,6 +2900,22 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.btn-l, .btn-group-l > .btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: none;
+  border-radius: 0.3rem;
+  background: rgba(0,0,0,0.2);
+}
+
+.btn-l:hover{
+  background: rgba(0,0,0,0.4);
+  border-color: transparent;
+  border: none;
+  color: #fff;
+}
+
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
@@ -3969,7 +3985,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
 }
 
 .navbar > .container,
@@ -9028,3 +9044,43 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+@media (max-width: 767px) {
+
+  /* // Align text to center. */
+  .text-xs-center {
+    text-align: center;
+  } 
+
+  .padding-xs-top {
+    padding-top: 15px;
+  }
+
+  .padding-xs-bottom {
+    padding-bottom: 35px;
+  }
+
+  .image-xs-padding {
+    padding: 0px 75px 0px 75px;
+  }
+
+  .xs-image {
+    width: 255px;
+    height: 255px;
+  }
+
+  .btn-xs-block {
+    display: block;
+    width: 100%;
+  }
+  
+  .btn-xs-block + .btn-xs-block {
+    margin-top: 0.5rem;
+  }
+  
+  input[type="submit"].btn-xs-block,
+  input[type="reset"].btn-xs-block,
+  input[type="button"].btn-xs-block {
+    width: 100%;
+  }
+}

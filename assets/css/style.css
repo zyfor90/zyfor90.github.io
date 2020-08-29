@@ -26,7 +26,10 @@
 }
 
 *{
-  font-family: 'Roboto'; 
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* color: #434E5E; */
 }
 
 body{
@@ -78,10 +81,10 @@ body{
 }
 /*HOMESCREEN PAGE*/
 .masthead {
-  height: 100vh;
-  min-height: 500px;
+  height: 45vh;
+  min-height: 250px;
   color: white;
-  background-image: url('../images/bg4.jpg');
+  background-color: #41A4F5;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -27,201 +27,276 @@
 			-o-transition: all 0.5s ease;
 			transition: all 0.5s ease;
 		}
+
+		.bg-bluee {
+			background-color: #0a71c6;
+		}
+		
+		.bg-light-bluee {
+			background-color: #41A4F5;
+		}
+
+		.text-light-bluee {
+			color: #41A4F5 !important;
+		}
+
+		.bio {
+			font-size: 17px;
+			color: white;
+		}
+
+		.bio > a {
+			color: #0a71c6;
+		}
+
+		.text-l {
+			font-size: 16px;
+		}
+
+		.skills-icon-holder{
+			width:80px;
+			height:80px;
+			padding-top:1.25rem;
+			top:-40px;
+			left:50%;
+			margin-left:-40px
+		}
+		
+		.fn-bg {
+			background-image: url('assets/website_logo/tablet.jpg');
+		}
+
+		.bn-bg {
+			background-image: url('assets/website_logo/folder.jpg');
+		}
+
+		.ot-bg {
+			background-image: url('assets/website_logo/loupe.jpg');
+		}
+
+		svg:not(:root).svg-inline--fa {
+			overflow: visible;
+		}
+		.svg-inline--fa.fa-w-16 {
+			width: 1.5em;
+			padding-bottom: 5px;
+			color: #41A4F5 !important;
+		}
+
+		ul.timeline {
+			list-style-type: none;
+			position: relative;
+		}
+		ul.timeline:before {
+			content: ' ';
+			background: #d4d9df;
+			display: inline-block;
+			position: absolute;
+			left: 29px;
+			width: 2px;
+			height: 100%;
+			z-index: 400;
+		}
+		ul.timeline > li {
+			margin: 20px 0;
+			padding-left: 20px;
+		}
+		ul.timeline > li:before {
+			content: ' ';
+			background: white;
+			display: inline-block;
+			position: absolute;
+			border-radius: 50%;
+			border: 3px solid #41A4F5;
+			left: 20px;
+			width: 20px;
+			height: 20px;
+			z-index: 400;
+		}
 		</style>
 	</head>
 	<body>
 
-			<!-- <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark">
-					<div class="container">
-					  <a class="navbar-brand" href="#">Navbar</a>
-					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					  </button>
-					  <div class="collapse navbar-collapse" id="main_nav">	
-						<ul class="navbar-nav ml-auto">
-						  <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
-						  <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
-						</ul>
-					  </div>
-					</div>
-					</nav> -->
-
-			<!-- Navigation -->
-			<nav id="navbar_top" class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent">
-			  <div class="container">
-					<a class="" href="index.html"><img src="assets/website_logo/zyfor-dark.png" width="140px" height="40px" alt=""></a>
-			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-			          <span class="navbar-toggler-icon"></span>
-			        </button>
-			    <div class="collapse navbar-collapse" id="navbarResponsive">
-			      <ul class="navbar-nav ml-auto ">
-					<li class="nav-item">
-						<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-home"></i></a>
-					</li>
-					<li class="nav-item">
-			          <a class="zyfor-menu page-scroll" href="#about">About Me</a>
-			        </li>
-			        <li class="nav-item">
-			          <a class="zyfor-menu page-scroll"  href="#work">Work Experience</a>
-			        </li>
-			        <li class="nav-item">
-						<a class="zyfor-menu page-scroll"  href="#karya">Portofolio</a>
-			        </li>
-					<li class="nav-item">
-						<a class="zyfor-menu page-scroll" href="#skill">Interested in</a>
-					</li>
-			      </ul>
-			    </div>
-			  </div>
-			</nav>
-			<!-- End Navigation -->
+	<!-- Navigation -->
+	<nav id="navbar_top" class="navbar navbar-expand-lg navbar-light p-1 fixed-top bg-bluee">
+		<div class="container-fluid">
+			<!-- <a class="" href="index.html"><img src="assets/website_logo/zyfor-dark.png" width="140px" height="40px" alt=""></a> -->
+		<div class="collapse navbar-collapse" id="">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-twitter text-white"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-linkedin text-white"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-gitlab text-white"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-github text-white"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-instagram text-white"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-github text-white"></i></a>
+				</li>
+			</ul>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto ">
+			<li class="nav-item">
+				<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-home text-white"></i></a>
+			</li>
+			<li class="nav-item">
+				<a class="zyfor-menu page-scroll" href="#about">About Me</a>
+			</li>
+			<li class="nav-item">
+				<a class="zyfor-menu page-scroll"  href="#work">Work Experience</a>
+			</li>
+			<li class="nav-item">
+				<a class="zyfor-menu page-scroll"  href="#karya">Portofolio</a>
+			</li>
+			<li class="nav-item">
+				<a class="zyfor-menu page-scroll" href="#skill">Interested in</a>
+			</li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	<!-- End Navigation -->
 
 	<!-- Carousel-->
 	<!-- <div  id="home" style="margin-top:60px"> -->
 	<div  id="home">
-		<header class="masthead shadow">
-		  <div class="container h-100">
-		    <div class="row h-100 align-items-center">
-		      <div class="col-12 text-center">
-		        <img src="assets/website_logo/homescreen.jpg" class="img img-thumbnail rounded-circle img-responsive img-center" style="width:255px; height:255px;" alt="">
-				<br><br>
-				<h1 class="font-weight-light"><strong>Febriansyah</strong></h1>
-		        <p class="lead" style="font-family:verdana"><b>Software Engineer || Full Stack Web Developer</b></p>
-		      </div>
+		<header class="bg-light-bluee auto pt-5">
+		  <div class="container pt-4 h-25">
+		    <div class="row">
+				<div class="col-lg-12 pt-5 pb-5">
+					<div class="row pb-2">
+						<div class="col-lg-3 auto image-xs-padding">
+							<img src="assets/website_logo/homescreen.jpg" class="img img-thumbnail img-responsive " style="width: 750px;" alt="">
+						</div>
+						<div class="col-lg-9 pl-5 padding-xs-top">
+							<div class="lead text-white text-xs-center">Hello, my name is</div>
+							<h2 class="mt-0 display-4 font-weight-bold text-white text-xs-center">Febriansyah</h2>
+							<div class="bio mb-3 text-xs-center">Hi, my name is febriansyah, I am a software engineer, i have more than 1 year experience in the field of web development. and start learning programming in grade 3 junior high school. I really like Web programming.</a>.
+							</div>
+							<button class="btn btn-l btn-primary btn-xs-block mt-2 text-xs-center">Hire Me</button>
+						</div>
+					</div>
+				</div>
 		    </div>
 		  </div>
 		</header>
 	</div>
+
 	<!--ABOUT ME-->
-	<!-- <div  id="aboutme">
-		<section class="py-5 aboutme-height bg-grey-white1">
-		  <div class="container">
-		    <div class="row">
-		      <div class="col-md-10 offset-md-1">
-		        <h4 class="text-center padding">About Us</h4>
-		        <hr style="border:1px solid black" width="10%">
-		        <p class="text-center aboutme-font">Hallo, Saya Febriansyah. saya lahir di bandung tanggal 17 Februari Tahun 2000. dan sekarang saya berumur 19 tahun. Sekarang saya tinggal di Cicaheum, Bandung. Saya adalah seorang Siswa lulusan SMK RPL di salah satu sekolah di kota Bandung. Saya mempunyai hobby bermain game, Membaca Novel dan juga Ngoding. Selain saya suka Ngoding, saya juga memiliki Cita-Cita untuk menjadi seorang full stack web developer.</p>
-		      </div>
-		      <div class="col-md-4 offset-md-4 text-center">
-		        <div class="profile-info">
-		          <ul class="list-inline social-icons">
-		            <li><a href="https://www.facebook.com/rootzyfor17" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
-		            <li><a href="https://twitter.com/febriansyah_y" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
-		            <li><a href="#" class="google-plus-bg"><i class="fa fa-google-plus"></i></a></li>
-		            <li><a href="https://github.com/zyfor90" class="github-bg"><i class="fa fa-github"></i></a></li>
-		          </ul>
-		        </div>
-		      </div>
-		    </div>
-		  </div>
-		</section>
-	</div> -->
-	<!--SKILL-->
 	<div id="about">
 		<section class="py-5 bg-light mb-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<div class="row">
-							<!-- <div class="col-lg-4 offset-lg-1">
-								<img src="assets/website_logo/bg-profile.jpeg" class="img img-fluid" alt="" srcset="">
-							</div> -->
-							<!-- <div class="col-lg-1"></div> -->
-							<!-- <div class="col-lg-6">
-								<h4 class="padding" style="font-size: 24px;">
-									Hubungi Saya
-								</h4>
-								<div class="row">
-									<div class="col-lg-12">
-										<div class="row mt-2 ml-4">
-												<div class="col-lg-2">
-													<img src="assets/logo/whatsapp.png" alt="github" width="45px" height="45px">
-												</div>
-												<div class="col-lg-8 mt-2">
-													<h5>089656149948</h5>
-												</div>
-										</div>
-										<div class="row mt-4 ml-4">
-											<div class="col-lg-2">
-												<img src="assets/logo/github.png" alt="github" width="45px" height="45px">
-											</div>
-											<div class="col-lg-8 mt-2">
-												<h5><a href="https://github.com/zyfor90">github.com/zyfor90</a></h5>
-											</div>
-										</div>
-										<div class="row mt-4 ml-4">
-												<div class="col-lg-2">
-													<img src="assets/logo/gitlab.png" alt="github" width="45px" height="45px">
-												</div>
-												<div class="col-lg-8 mt-2">
-													<h5><a href="https://gitlab.com/zyfor90">gitlab.com/zyfor90</a></h5>
-												</div>
-											</div>
-										<div class="row mt-4 ml-4">
-												<div class="col-lg-2">
-													<img src="assets/logo/ig.png" alt="github" width="45px" height="45px">
-												</div>
-												<div class="col-lg-8 mt-2">
-													<h5><a href="https://www.instagram.com/febriansyah10969/">Febriansyah10969</a></h5>
-												</div>
-										</div>
-									</div>
-								</div>
-							</div> -->
-							<div class="col-lg-6 pt-5 mt-5">
-								<br><br>
-								<h4 class="padding" style="font-size: 24px;">
-									Tentang Saya
-								</h4>
-								<div class="row">
-									<div class="col-lg-12">
-										<h6 class="text-justify ls-1">Hi, My name is Febriansyah, I am a Software Engineer, I have more than 1 year experience in the field of Web Development. and Start learning programming in grade 3 junior high school. I really like Web Programming.</h6>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-5 offset-1">
-								<img src="assets/website_logo/programmer3.png" class="img-fluid" alt="Febri">
-							</div>
-						</div>
+						<h3 class="section-title font-weight-bold text-center mb-3" style="color: #434E5E;">Skills Overview</h3>
+						<br>
+						<div class="ml-auto col-lg-9 mx-auto text-center mb-5 text-secondary text-l">I have more than 1 years' experience building rich web applications for clients all over the world. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience? <br><a href="resume.html">Check out my online resume</a>.</div>
 					</div>
 				</div>
+				<div class="row pt-4">
+			        <div class="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0">
+				        <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
+					        <h4 class="skills-cat text-center mb-3 mt-5">Frontend</h4>
+					        <div class="skills-icon-holder fn-bg position-absolute d-inline-block rounded-circle text-center">
+					            <img class="skills-icon" src="assets/website_logo/tablet.png" width="80px" height="80px">
+					        </div>
+					        <ul class="skills-list list-unstyled text-secondary">
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">HTML</span></li>
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">CSS/Bootstrap</span></li>
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">Javascript/Jquery</span></li>							
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">VueJs</span></li>
+					        </ul>
+				        </div><!--//skills-block-inner-->
+			        </div><!--//skills-block-->
+			        
+			        <div class="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0">
+				        <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
+					        <h4 class="skills-cat text-center mb-3 mt-5">Backend</h4>
+					        <div class="skills-icon-holder bn-bg position-absolute d-inline-block rounded-circle text-center">
+					            <img class="skills-icon" src="assets/website_logo/folder.png" width="80px" height="80pc">
+					        </div>
+					        <ul class="skills-list list-unstyled text-secondary">
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">Go</span></li>
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">PHP/Laravel</span></li>
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">Mysql</span></li>
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">Pgsql</span></li>
+					        </ul>
+				        </div><!--//skills-block-inner-->
+			        </div><!--//skills-block-->
+			        
+			        <div class="skills-block col-12 col-lg-4">
+				        <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
+					        <h4 class="skills-cat text-center mb-3 mt-5">Others</h4>
+					        <div class="skills-icon-holder ot-bg position-absolute d-inline-block rounded-circle text-center">
+					            <img class="skills-icon" src="assets/website_logo/loupe.png" width="80px" height="80px">
+					        </div>
+					        <ul class="skills-list list-unstyled text-secondary">
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">Git/Gitlab/Github</span></li>
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">Rest API</span></li>
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">Photoshop</span></li>
+								<li class="mb-2"><svg class="svg-inline--fa fa-check fa-w-16 mr-2 text-light-bluee" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg><!-- <i class="fas fa-check mr-2 text-primary"></i> --> <span class="text-l">Unit Testing</span></li>
+					        </ul>
+				        </div><!--//skills-block-inner-->
+			        </div><!--//skills-block-->
+			        
+		        </div>
 			</div>
 		</section>
 	</div>
-	<!--KARYA-->
+
+
+	<!--Work Experience-->
 	<div id="work">
 		<section class="py-5 zyfor-height">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-							<h4 class="text-center padding" style="font-size: 24px;">Work Experience</h4>
-							<hr class="borderline" style="margin-bottom: 76px;"><br><br><br>
-							<div class="row">
-								<div class="col-lg-4 text-center">
-									<img src="assets/images/goyong.png" width="175px" height="175px" alt="" class="img-thumbnail rounded-circle">
-									<br>
-									<br>
-									<strong>PT. GOTONG ROYONG BISNIS INDONESIA</strong><br>
-									<strong>Junior Web Developer</strong>
-									<P class="text-center">Juni 2019 - Juni 2020</P>
-								</div>
-								<div class="col-lg-4 text-center">
-									<img src="assets/images/zyfor.jpeg" width="175px" height="175px" alt="" class="img-thumbnail rounded-circle">
-									<br>
-									<br>
-									<strong>ZYFOR STUDIO</strong><br>
-									<strong>Freelance Web Developer</strong>
-									<P class="text-center">Januari 2020 - Now</P>
-								</div>
-								<div class="col-lg-4 text-center">
-									<img src="assets/images/dst.png" width="175px" height="175px" alt="" class="img-thumbnail rounded-circle">
-									<br>
-									<br>
-									<strong>PT. DENGAN SENANG TEKNOLOGI</strong><br>
-									<strong>Software Engineer</strong>
-									<P class="text-center">Juli 2020 - Now</P>
-								</div>
+						<h3 class="section-title font-weight-bold text-center mb-3" style="color: #434E5E;">Work Experience</h3>
+						<br>
+						<br>
+						<br>
+						<div class="row">
+							<div class="col-lg-6 text-xs-center padding-xs-bottom">
+								<img src="assets/t.png" class="img img-responsive xs-image" alt="work">
 							</div>
+							<div class="col-lg-6">
+								<ul class="timeline text-l">
+									<li>
+										<a target="_blank" href="https://www.totoprayogo.com/#">Junior Web Developer</a>
+										<a href="#" class="float-right">Juni 2019 - Juni 2020</a><br>
+										<strong>PT. GOTONG ROYONG BISNIS INDONESIA</strong>
+										<span class="float-right">Full Time</span>
+										<p>Bekerja Sebagai Junior Wev Developer, Menggunakan Html, css, bootstrap, jquery dan Laravel, pernah mendevelop aplikasi android menggunakan flutter.</p>
+									</li>
+									<li>
+										<a href="#">Full Stack Web Developer</a>
+										<a href="#" class="float-right">Januari 2020 - Juli 2020</a><br>
+										<strong>ZYFOR STUDIO</strong>
+										<span class="float-right">Freelance</span>
+										<p>Bekerja Sebagai Freelance Web Developer dan menerima Project pembuatan aplikasi berbasis web menggunakan Laravel dan Jquery</p>
+									</li>
+									<li>
+										<a href="#">Software Engineer</a>
+										<a href="#" class="float-right">Juli 2020 - Sekarang</a><br>
+										<strong>PT. DENGAN SENANG TEKNOLOGI</strong>
+										<span class="float-right">Full Time</span>
+										<p>Bekerja Sebagai Backend Developer dan membantu mengembangkan aplikasi dengan membuat REST API untuk keperluaan Mobile Apps</p>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -261,10 +336,10 @@
 					</div>
 					<div class="col-md-4">
 						<div class="kolom card">
-							<img class="img rounded" src="assets/images/al-quran1.png" alt="Card image" style="height: 230px;width:100%">
+							<img class="img rounded" src="assets/images/al-quran.png" alt="Card image" style="height: 230px;width:100%">
 							<div class="card-body" style="border-top:4px solid #e5e5e5">
-								<h5 class="font-weight-bold"><a href="http://hafalanku.my.id/">Aplikasi Hafalan Al-Quran</a></h5>
-								<strong>Html, Bootstrap, Jquery, Laravel, Pgsql</strong>
+								<h5 class="font-weight-bold"><a href="http://hafalanku.my.id/">Aplikasi Al-Quran</a></h5>
+								<strong>Html, Bootstrap, Vue Js, API</strong>
 							</div>
 						</div>
 					</div>
@@ -274,42 +349,6 @@
 							<div class="card-body" style="border-top:4px solid #e5e5e5">
 								<h5 class="font-weight-bold">Aplikasi Akutansi</h5>
 								<strong>Html, Css, Bootstrap, Jquery, Laravel, Pgsql</strong>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="kolom card">
-							<img class="img rounded" src="assets/images/documentation.png" alt="Card image" style="height: 230px;width:100%">
-							<div class="card-body" style="border-top:4px solid #e5e5e5">
-								<h5 class="font-weight-bold">Aplikasi Dokumentasi</h5>
-								<strong>Html, Css, Bootstrap Vue, Vue Js, Laravel, Mysql</strong>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="kolom card">
-							<img class="img rounded" src="assets/images/perpus.png" alt="Card image" style="height: 230px;width:100%">
-							<div class="card-body" style="border-top:4px solid #e5e5e5">
-								<h5 class="font-weight-bold">Aplikasi Perpustakaan Online</h5>
-								<strong>Html, Bootstrap, Jquery, Laravel, Pgsql</strong>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="kolom card">
-							<img class="img rounded" src="assets/images/warehouse.png" alt="Card image" style="height: 230px;width:100%">
-							<div class="card-body" style="border-top:4px solid #e5e5e5">
-								<h5 class="font-weight-bold">Aplikasi Informasi Gudang</h5>
-								<strong>Html, Css, Php Native, Mysql</strong>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="kolom card">
-							<img class="img rounded" src="assets/images/al-quran.png" alt="Card image" style="height: 230px;width:100%">
-							<div class="card-body" style="border-top:4px solid #e5e5e5">
-								<h5 class="font-weight-bold">Aplikasi Al-Quran</h5>
-								<strong>Html, Bootstrap, Vue Js, API</strong>
 							</div>
 						</div>
 					</div>
@@ -331,72 +370,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="kolom card">
-							<img class="img rounded" src="assets/images/covid.png" alt="Card image" style="height: 230px;width:100%">
-							<div class="card-body" style="border-top:4px solid #e5e5e5">
-								<h5 class="font-weight-bold">Aplikasi Monitoring Corona</h5>
-								<strong>Html, Css, Jquery, API</strong>
-							</div>
-						</div>
-					</div>
 					<!-- END POSTINGAN -->
 				</div>
 			</div>
 		</section>
 	</div>
-	<div id="skill">
-			<section class="py-5 ">
-			  <div class="container">
-				<div class="row">
-				  <!-- POSTINGAN -->
-					  <div class="col-md-12">
-						<!-- <h4 class="text-center padding" style="font-size: 24px;">Teknologi Yang digunakan</h4>
-						<hr class="borderline"> -->
-						<br><br>
-						<div class="row">
-						  <div class="col-md-3 skill">
-							<center><img src="assets/logo/html.png" class="img img-responsive skill-logo" alt="">
-							<p class="text-center skill-text" style="font-size: 24px;">Html</p></center>
-						  </div>
-						  <!-- <div class="col-md-3 skill">
-							<center><img src="assets/logo/css.png" class="img img-responsive skill-logo" alt="">
-							<p class="text-center skill-text" style="font-size: 24px;">CSS</p></center>
-						  </div> -->
-						  <div class="col-md-3 skill">
-							<center><img src="assets/logo/bootstrap.png" class="img img-responsive skill-logo" alt="">
-							<p class="text-center skill-text" style="font-size: 24px;">Bootstrap</p></center>
-						  </div>
-						  <div class="col-md-3 skill">
-							<center><img src="assets/logo/jquery.png" class="img img-responsive skill-logo" alt="">
-							<p class="text-center skill-text" style="font-size: 24px;">Jquery</p></center>
-						  </div>
-						  <div class="col-md-3 skill">
-							<center><img src="assets/logo/vuejs.png" class="img img-responsive skill-logo" alt="">
-							  <p class="text-center skill-text" style="font-size: 24px;">VueJS</p></center>
-							</div>
-						  <div class="col-md-3 skill">
-							<center><img src="assets/logo/laravel.png" class="img img-responsive skill-logo" alt="">
-							<p class="text-center skill-text" style="font-size: 24px;">Laravel</p></center>
-						  </div>
-						  <div class="col-md-3 skill">
-							<center><img src="assets/logo/git.png" class="img img-responsive skill-logo" alt="">
-							<p class="text-center skill-text" style="font-size: 24px;">Git</p></center>
-						  </div>
-						  <div class="col-md-3 skill">
-							<center><img src="assets/logo/mysql.png" class="img img-responsive skill-logo" alt="">
-							<p class="text-center skill-text" style="font-size: 24px;">MYSQL</p></center>
-						  </div>
-						  <div class="col-md-3 skill">
-							<center><img src="assets/logo/pgsql.png" class="img img-responsive skill-logo" alt="">
-							<p class="text-center skill-text" style="font-size: 24px;">Postgre</p></center>
-						  </div>
-						</div>
-					  </div>
-				</div>
-			  </div>
-			</section>
-		</div>
 	<!--CONTACT-->
 	<!-- <div id="contact">
 		<section class="py-5 zyfor-height ">
@@ -465,31 +443,31 @@
 		// $(function () {
 		// 	$('[data-toggle="tooltip"]').tooltip()
 		// })
-				console.log($(this).scrollTop());
+				// console.log($(this).scrollTop());
 		$(function() { 
 			$(document).on('click', '.zyfor-menu', function () {
 				$('.zyfor-menu').removeClass('menu-active')
 				$(this).addClass('menu-active');
 			});
 		});
-		if ($(window).width() > 992) {
-			$(window).scroll(function(){  
-				if ($(this).scrollTop() > 100) {
-					$('#navbar_top').removeClass('bg-transparent').addClass("navbar-light bg-light");
-					$('.zyfor-menu').addClass('text-custom');
-				}
+		// if ($(window).width() > 992) {
+		// 	$(window).scroll(function(){  
+		// 		if ($(this).scrollTop() > 100) {
+		// 			$('#navbar_top').removeClass('bg-transparent').addClass("navbar-light bg-light");
+		// 			$('.zyfor-menu').addClass('text-custom');
+		// 		}
 				
-				if($(this).scrollTop() <= 0){
-					$('#navbar_top').addClass('bg-transparent').removeClass("navbar-light bg-light");
-					$('.zyfor-menu').removeClass('text-custom menu-active');
-				}
+		// 		if($(this).scrollTop() <= 0){
+		// 			$('#navbar_top').addClass('bg-transparent').removeClass("navbar-light bg-light");
+		// 			$('.zyfor-menu').removeClass('text-custom menu-active');
+		// 		}
 				
-				if($(this).scrollTop() >= 1 && $(this).scrollTop() <= 100){
-					$('#navbar_top').addClass('bg-transparent').removeClass("navbar-light bg-light");
-					$('.zyfor-menu').removeClass('text-custom');
-				}   
-			});
-		} // end if
+		// 		if($(this).scrollTop() >= 1 && $(this).scrollTop() <= 100){
+		// 			$('#navbar_top').addClass('bg-transparent').removeClass("navbar-light bg-light");
+		// 			$('.zyfor-menu').removeClass('text-custom');
+		// 		}   
+		// 	});
+		// } // end if
 		</script>
 
 	</html>
