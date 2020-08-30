@@ -1,1 +1,565 @@
-Testing CV BROOO
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ZyforFx</title>
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/helper.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" type="image/png" sizes="96x96" href="assets/website_logo/favicon.png">
+		<style>
+		.ls-1{
+			line-height: 28px;
+		}
+		.text-custom{
+			color: #007bff;
+		}
+		/* .zyfor-menu:hover{
+			color: #007bff !important;
+		}
+		.menu-active:hover{
+		color: #fff !important;
+		} */
+		.navbar-light, .bg-light, .bg-transparent, .text-custom{
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+		}
+
+		.bg-bluee {
+			background-color: #0a71c6;
+		}
+		
+		.bg-light-bluee {
+			background-color: #41A4F5;
+		}
+
+		.text-light-bluee {
+			color: #41A4F5 !important;
+		}
+
+		.text-gelap {
+			color: #434E5E;
+		}
+
+		.bg-gelap {
+			background-color: #434E5E;
+		}
+
+		.bio {
+			font-size: 17px;
+			color: white;
+		}
+
+		.bio > a {
+			color: #0a71c6;
+		}
+
+		.text-l {
+			font-size: 16px;
+		}
+
+		.text-m {
+			font-size: 11.5px;
+		}
+
+		.skills-icon-holder{
+			width:80px;
+			height:80px;
+			padding-top:1.25rem;
+			top:-40px;
+			left:50%;
+			margin-left:-40px
+		}
+		
+		.fn-bg {
+			background-image: url('assets/website_logo/tablet.jpg');
+		}
+
+		.bn-bg {
+			background-image: url('assets/website_logo/folder.jpg');
+		}
+
+		.ot-bg {
+			background-image: url('assets/website_logo/loupe.jpg');
+		}
+
+		svg:not(:root).svg-inline--fa {
+			overflow: visible;
+		}
+		.svg-inline--fa.fa-w-16 {
+			width: 1.5em;
+			padding-bottom: 5px;
+			color: #41A4F5 !important;
+		}
+
+		ul.timeline {
+			list-style-type: none;
+			position: relative;
+		}
+		ul.timeline:before {
+			content: ' ';
+			background: #d4d9df;
+			display: inline-block;
+			position: absolute;
+			left: 29px;
+			width: 2px;
+			height: 100%;
+			z-index: 400;
+		}
+		ul.timeline > li {
+			margin: 20px 0;
+			padding-left: 20px;
+		}
+		ul.timeline > li:before {
+			content: ' ';
+			background: white;
+			display: inline-block;
+			position: absolute;
+			border-radius: 50%;
+			border: 3px solid #41A4F5;
+			left: 20px;
+			width: 20px;
+			height: 20px;
+			z-index: 400;
+		}
+
+		.image {
+			width: 58px;
+			height: 58px;
+			position:relative;
+		}
+		.image > .overlay {
+			width:100%;
+			height:100%;
+			position:absolute;
+			background-color:#000;
+			opacity:0.5;
+			border-radius:30px;
+		}
+		.footer {
+			background: #434E5E;
+		}
+
+		</style>
+	</head>
+	<body>
+
+	<!-- Navigation -->
+	<nav id="navbar_top" class="navbar navbar-expand-lg navbar-light p-1  bg-bluee">
+		<div class="container-fluid">
+			<!-- <a class="" href="index.html"><img src="assets/website_logo/zyfor-dark.png" width="140px" height="40px" alt=""></a> -->
+		<div class="collapse navbar-collapse " id="">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-linkedin text-white"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-gitlab text-white"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-github text-white"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-instagram text-white"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-facebook text-white"></i></a>
+				</li>
+			</ul>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- <div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto ">
+			<li class="nav-item">
+				<a class="zyfor-menu page-scroll" href="#home"><i class="fa fa-home text-white"></i></a>
+			</li>
+			<li class="nav-item">
+				<a class="zyfor-menu page-scroll" href="#skill">Skill Overview</a>
+			</li>
+			<li class="nav-item">
+				<a class="zyfor-menu page-scroll"  href="#work">Work Experience</a>
+			</li>
+			<li class="nav-item">
+				<a class="zyfor-menu page-scroll"  href="#karya">Portofolio</a>
+			</li>
+			</ul>
+		</div> -->
+		</div>
+	</nav>
+	<!-- End Navigation -->
+
+	<!-- Carousel-->
+	<!-- <div  id="home" style="margin-top:60px"> -->
+	<div id="home">
+		<header class="bg-light-bluee auto">
+		  <div class="container pt-4 h-25">
+		    <!-- <div class="row">
+				<div class="col-lg-12 pt-5 pb-5" style="height: 360px;">
+				</div>
+		    </div> -->
+			<div class="header-intro header-intro-resume theme-bg-primary text-white py-5">
+				<div class="container position-relative">
+					<h2 class="page-heading mb-3">Resume</h2>
+					<a class="btn theme-btn-on-bg download-resume position-absolute font-weight-bold mx-auto" href="https://zyfor90.github.io" target="_blank"><!-- <i class="fas fa-download mr-2"></i> -->Lihat Web Portofolio</a>
+				</div><!--//container-->
+			</div>
+		  </div>
+		</header>
+		<article class="resume-wrapper text-center position-relative">
+			<div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+				<header class="resume-header pt-4 pt-md-0">
+					<div class="media flex-column flex-md-row">
+						<img class="mr-3 img-fluid picture mx-auto" src="assets/website_logo/homescreen.jpg" alt="">
+						<div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+							<div class="primary-info">
+								<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Febriansyah</h1>
+								<div class="title mb-3">Software Engineer</div>
+								<ul class="list-unstyled">
+									<li class="mb-2"><a href="#"><i class="fa fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>Febriansyah1719@gmail.com</a></li>
+									<li class="mb-2"><i class="fa fa-phone fa-fw mr-2" data-fa-transform="grow-6"></i>089656149948</a></li>
+								</ul>
+							</div><!--//primary-info-->
+							<div class="secondary-info ml-md-auto mt-2">
+								<ul class="resume-social list-unstyled">
+									<li class="mb-3"><span class="fa-container text-center mr-2"><a href="#"><i class="fa fa-linkedin fa-fw text-dark"></i></span> linkedin.com/in/febriansyah</a></li>
+									<li class="mb-3"><span class="fa-container text-center mr-2"><a href="#"><i class="fa fa-github fa-fw text-dark"></i></span>github.com/zyfor90</a></li>
+									<li class="mb-3"><span class="fa-container text-center mr-2"><a href="#"><i class="fa fa-gitlab fa-fw text-dark"></i></span>gitlab.com/zyfor90/</a></li>
+									<li class="mb-3"><span class="fa-container text-center mr-2"><a href="#"><i class="fa fa-instagram fa-fw text-dark"></i></span>instagram/febriansyah10969/</a></li>
+								</ul>
+							</div><!--//secondary-info-->
+							
+						</div><!--//media-body-->
+					</div><!--//media-->
+				</header>
+				<div class="resume-body p-5">
+					<section class="resume-section summary-section mb-5">
+						<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Tentang Saya</h2>
+						<div class="resume-section-content">
+							<p class="mb-0">Nama Saya Febriansyah, Saya adalah Seorang Full stack Web Developer, Saya memiliki pengalaman lebih dari 1 tahun di bidang Web Development. dan Memulai belajar programming pada kelas 9 SMP.</p>
+						</div>
+					</section><!--//summary-section-->
+					<div class="row">
+						<div class="col-lg-9">
+							<section class="resume-section experience-section mb-5">
+								<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Pengalaman Bekerja</h2>
+								<div class="resume-section-content">
+									<div class="resume-timeline position-relative">
+										<article class="resume-timeline-item position-relative pb-5">
+											
+											<div class="resume-timeline-item-header mb-2">
+												<div class="d-flex flex-column flex-md-row">
+													<h3 class="resume-position-title font-weight-bold mb-1">Sofware Engineer</h3>
+													<div class="resume-company-name ml-auto">PT. Dengan Senang Teknologi</div>
+												</div><!--//row-->
+												<div class="resume-position-time">Juli 2020 - Sekarang</div>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<p>Bekerja Sebagai Backend Developer dan membantu mengembangkan aplikasi dengan membuat REST API untuk keperluaan Mobile Apps </p>
+												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Project</h4>
+												<p>Di PT. Dengan Senang Teknologi saya membantu mengerjakan project sebagai berikut :</p>
+												<ul>
+													<li>Treasury - Jual Beli Emas</li>
+												</ul>
+												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Teknologi yang digunakan:</h4>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Laravel</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Rest API</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">PostgresSQL</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">GO</span></li>
+													<!-- <li class="list-inline-item"><span class="badge badge-secondary badge-pill">HTML/SASS</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">PostgresSQL</span></li> -->
+												</ul>
+											</div><!--//resume-timeline-item-desc-->
+	
+										</article><!--//resume-timeline-item-->
+										
+										<article class="resume-timeline-item position-relative pb-5">
+											
+											<div class="resume-timeline-item-header mb-2">
+												<div class="d-flex flex-column flex-md-row">
+													<h3 class="resume-position-title font-weight-bold mb-1">Full Stack Web Developer</h3>
+													<div class="resume-company-name ml-auto">Zyfor Studio</div>
+												</div><!--//row-->
+												<div class="resume-position-time">Januari 2020 - Juli 2020</div>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<p>Bekerja Sebagai Freelance Web Developer dan menerima Project pembuatan aplikasi berbasis web menggunakan Laravel dan Jquery</p>
+												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Projects</h4>
+												<p>Di Zyfor Studio saya mengerjakan project sebagai berikut :</p>
+												<ul>
+													<li>Aplikasi Dokumentasi Pembelajaran</li>
+													<li>Aplikasi E Raport</li>
+													<li>Aplikasi Hafalan Al Quran</li>
+													<li>Aplikasi Perpustakaan Online</li>
+													<li>Aplikasi Management Produksi Gantar</li>
+												</ul>
+												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Teknologi yang digunakan:</h4>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">HTML</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">CSS/Bootstrap</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Jquery</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Laravel</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">MySQL</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Pgsql</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Git/Gitlab</span></li>
+												</ul>
+											</div><!--//resume-timeline-item-desc-->
+	
+										</article><!--//resume-timeline-item-->
+										
+										<article class="resume-timeline-item position-relative pb-5">
+											
+											<div class="resume-timeline-item-header mb-2">
+												<div class="d-flex flex-column flex-md-row">
+													<h3 class="resume-position-title font-weight-bold mb-1">Junior Web Developer</h3>
+													<div class="resume-company-name ml-auto">PT. GOTONG ROYONG BISNIS INDONESIA</div>
+												</div><!--//row-->
+												<div class="resume-position-time">Juni 2019 - Juli 2020</div>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<p>Bekerja Sebagai Junior Wev Developer, Menggunakan Html, css, bootstrap, jquery dan Laravel, pernah mendevelop aplikasi android menggunakan flutter.</p>
+												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Projects</h4>
+												<p>Di PT. GOTONG ROYONG BISNIS INDONESIA saya mengerjakan project sebagai berikut :</p>
+												<ul>
+													<li>System Informasi Management Akutansi Keuangan (SIMAK)</li>
+													<li>Govo.id - Ecommerce</li>
+												</ul>
+												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">HTML</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">CSS/Bootstrap</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Jquery</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Laravel</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Flutter</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Mysql</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Pgsql</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Rest API</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Git/Gitlab</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Trello</span></li>
+												</ul>
+											</div><!--//resume-timeline-item-desc-->
+	
+										</article><!--//resume-timeline-item-->
+										
+										<article class="resume-timeline-item position-relative">
+											
+											<div class="resume-timeline-item-header mb-2">
+												<div class="d-flex flex-column flex-md-row">
+													<h3 class="resume-position-title font-weight-bold mb-1">Operator Pom Bensin<small class="text-muted"></small></h3>
+													<div class="resume-company-name ml-auto">PT. Pertamina</div>
+												</div><!--//row-->
+												<div class="resume-position-time">Februari 2019 - April 2019</div>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+											<p>Bekerja Sebagai Operator Pom Bensin selama 3 bulan </p>
+											</div>
+										</article><!--//resume-timeline-item-->
+										
+										<article class="resume-timeline-item position-relative">
+											
+											<div class="resume-timeline-item-header mb-2">
+												<div class="d-flex flex-column flex-md-row">
+													<h3 class="resume-position-title font-weight-bold mb-1">Kepala Regu Gudang</small></h3>
+													<div class="resume-company-name ml-auto">PT. World Yamatex Spinning Mills</div>
+												</div><!--//row-->
+												<div class="resume-position-time">Juni 2018 - Desember 2018</div>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<p>Bekerja Sebagai operator gudang selama 3 bulan kemudian di angkat menjadi kepala regu bagian gudang textile.</p>
+											</div><!--//resume-timeline-item-desc-->
+	
+										</article><!--//resume-timeline-item-->
+
+										<article class="resume-timeline-item position-relative">
+											
+											<div class="resume-timeline-item-header mb-2">
+												<div class="d-flex flex-column flex-md-row">
+													<h3 class="resume-position-title font-weight-bold mb-1">IT Support</small></h3>
+													<div class="resume-company-name ml-auto">Museum Geologi Bandung</div>
+												</div><!--//row-->
+												<div class="resume-position-time">Juli 2017 - September 2017</div>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<p>Magang / Praktik Kerja Lapangan Sebagai IT Support di museum geologi bandung. dan turut ikut membantu membuat aplikasi inventoris data gudang museum geologi bandung.</p>
+												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Projects</h4>
+												<p>Di Museum Geologi Bandung saya mengerjakan project sebagai berikut :</p>
+												<ul>
+													<li>System Informasi Inventorisasi Gudang</li>
+												</ul>
+												<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">HTML</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">CSS</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">php Native</span></li>
+													<li class="list-inline-item"><span class="badge badge-secondary badge-pill">Mysql</span></li>
+												</ul>
+											</div><!--//resume-timeline-item-desc-->
+	
+										</article><!--//resume-timeline-item-->
+									</div><!--//resume-timeline-->
+									
+									
+									
+									
+									
+									
+								</div>
+							</section><!--//experience-section-->
+						</div>
+						<div class="col-lg-3">
+							<section class="resume-section skills-section mb-5">
+								<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
+								<div class="resume-section-content">
+									<div class="resume-skill-item">
+										<h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
+										<ul class="list-unstyled mb-4">
+											<li class="mb-2">
+												<div class="resume-skill-name">Html</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</li>
+											<li class="mb-2">
+												<div class="resume-skill-name">Css</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 94%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</li>
+											<li class="mb-2">
+												<div class="resume-skill-name">Bootstrap</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</li>
+											
+											<li class="mb-2">
+												<div class="resume-skill-name">Jquery</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 82%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</li>
+											<li class="mb-2">
+												<div class="resume-skill-name">VueJs</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 26%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</li>
+										</ul>
+									</div><!--//resume-skill-item-->
+									<br>
+									<div class="resume-skill-item">
+										<h4 class="resume-skills-cat font-weight-bold">Backend</h4>
+										<ul class="list-unstyled">
+											<li class="mb-2">
+												<div class="resume-skill-name">PHP/LARAVEL</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</li>
+											<li class="mb-2">
+												<div class="resume-skill-name">Go</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 52%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</li>
+											<li class="mb-2">
+												<div class="resume-skill-name">Mysql</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 66%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</li>
+											<li class="mb-2">
+												<div class="resume-skill-name">Pgsql</div>
+												<div class="progress resume-progress">
+													<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 82%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</li>
+										</ul>
+									</div><!--//resume-skill-item-->
+									<br>
+									<div class="resume-skill-item">
+										<h4 class="resume-skills-cat font-weight-bold">Lainnya</h4>
+										<ul class="list-inline">
+											<li class=""><span class="badge badge-secondary text-white m-1">Git</span></li>
+											<li class=""><span class="badge badge-secondary text-white m-1">Gitlab</span></li>
+											<li class=""><span class="badge badge-secondary text-white m-1">Github</span></li>
+											<li class=""><span class="badge badge-secondary text-white m-1">Wireframing</span></li>
+											<li class=""><span class="badge badge-secondary text-white m-1">Unit Testing</span></li>
+											<li class=""><span class="badge badge-secondary text-white m-1">Photoshop</span></li>
+											<li class=""><span class="badge badge-secondary text-white m-1">Rest API</span></li>
+										</ul>
+									</div><!--//resume-skill-item-->
+								</div><!--resume-section-content-->
+							</section><!--//skills-section-->
+							<section class="resume-section education-section mb-5">
+								<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Pendidikan</h2>
+								<div class="resume-section-content">
+									<ul class="list-unstyled">
+										<li class="mb-2">
+											<div class="resume-degree font-weight-bold">SMK CIPTA SKILL</div>
+											<!-- <div class="resume-degree-org">Rekayasa Perangkat Lunak (RPL)</div> -->
+											<div class="resume-degree-time">2015 - 2018</div>
+										</li>
+										<li>
+											<div class="resume-degree font-weight-bold">SMP YAS BANDUNG</div>
+											<!-- <div class="resume-degree-org">SMK YAS BANDUNG</div> -->
+											<div class="resume-degree-time">2012 - 2015</div>
+										</li>
+										<li>
+											<div class="resume-degree font-weight-bold">SDN PADASUKA 2</div>
+											<!-- <div class="resume-degree-org">SMK YAS BANDUNG</div> -->
+											<div class="resume-degree-time">2006 - 2012</div>
+										</li>
+									</ul>
+								</div>
+							</section><!--//education-section-->
+							<section class="resume-section reference-section mb-5">
+								<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Sertifikat</h2>
+								<div class="resume-section-content">
+									<strong>Praktik Kerja Lapangan</strong><br>
+									<small>Museum Geologi Bandung</small>
+								</div>
+							</section>
+							<!-- //interests-section -->
+							<section class="resume-section language-section mb-5">
+								<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Bahasa</h2>
+								<div class="resume-section-content">
+									<ul class="list-unstyled resume-lang-list">
+										<li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">Indonesia</span> <small class="text-muted font-weight-normal">(Native)</small></li>
+										<li class="mb-2"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Professional)</small></li>
+										<!-- <li><span class="resume-lang-name font-weight-bold">Spanish</span> <small class="text-muted font-weight-normal">(Professional)</small></li> -->
+									</ul>
+								</div>
+							</section>
+						</div>
+					</div><!--//row-->
+				</div><!--//resume-body-->
+				
+				
+			</div>
+		</article>
+	</div>
+
+
+
+	</body>
+
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/style.js"></script>
+	<script>
+	$(function() { 
+		$(document).on('click', '.zyfor-menu', function () {
+			$('.zyfor-menu').removeClass('menu-active')
+			$(this).addClass('menu-active');
+		});
+	});
+	</script>
+
+	</html>
