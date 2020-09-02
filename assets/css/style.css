@@ -46,12 +46,12 @@ body{
 /* .nav-item a:hover{
   color: #fff;
 } */
-.menu-active{
+/* .menu-active{
   padding: 23px;
   line-height: 50px;
   background: #007bff;
   color: #fff !important;
-}
+} */
 
 .zyfor-menu{
   padding: 23px;
@@ -323,4 +323,137 @@ body{
   min-height: 600px;
   padding: 20px;
   box-sizing: border-box;
+}
+.ls-1{
+  line-height: 28px;
+}
+.text-custom{
+  color: #007bff;
+}
+/* .zyfor-menu:hover{
+  color: #007bff !important;
+}
+.menu-active:hover{
+color: #fff !important;
+} */
+.navbar-light, .bg-light, .bg-transparent, .text-custom{
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.bg-bluee {
+  background-color: #0a71c6;
+}
+
+.bg-light-bluee {
+  background-color: #41A4F5;
+}
+
+.text-light-bluee {
+  color: #41A4F5 !important;
+}
+
+.text-gelap {
+  color: #434E5E;
+}
+
+.bg-gelap {
+  background-color: #434E5E;
+}
+
+.bio {
+  font-size: 17px;
+  color: white;
+}
+
+.bio > a {
+  color: #0a71c6;
+}
+
+.text-l {
+  font-size: 16px;
+}
+
+.text-m {
+  font-size: 11.5px;
+}
+
+.skills-icon-holder{
+  width:80px;
+  height:80px;
+  padding-top:1.25rem;
+  top:-40px;
+  left:50%;
+  margin-left:-40px
+}
+
+.fn-bg {
+  background-image: url('assets/website_logo/tablet.jpg');
+}
+
+.bn-bg {
+  background-image: url('assets/website_logo/folder.jpg');
+}
+
+.ot-bg {
+  background-image: url('assets/website_logo/loupe.jpg');
+}
+
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+.svg-inline--fa.fa-w-16 {
+  width: 1.5em;
+  padding-bottom: 5px;
+  color: #41A4F5 !important;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #41A4F5;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+.image {
+  width: 58px;
+  height: 58px;
+  position:relative;
+}
+.image > .overlay {
+  width:100%;
+  height:100%;
+  position:absolute;
+  background-color:#000;
+  opacity:0.5;
+  border-radius:30px;
+}
+.footer {
+  background: #434E5E;
 }
