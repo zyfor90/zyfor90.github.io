@@ -10,8 +10,8 @@ body {
   overflow-x: hidden;
   background-color: #eeeeee;
   color: #6C6D6E;
+  overflow-y:scroll;
 }
-
 a {
   transition: all 0.3s ease;
 }
@@ -25,6 +25,13 @@ p {
   line-height: 1.8;
 }
 
+.menu-shad {
+	border-radius: 10px 10px 0px 0px;
+	color: #000;
+	text-decoration: none;
+}
+
+
 .tm-primary-color {
   color: #61AEAE;
 }
@@ -35,7 +42,7 @@ p {
 
 
 .tm-page-container {
-  max-width: 600px;
+  max-width: 100%;
   width: 100%;  
 }
 
@@ -383,5 +390,10 @@ figcaption {
   footer span {
     display: block;
     padding: 15px;
+  }
+  
+  .footer-center {
+	text-align: center;
+	width: 100%;
   }
 }
